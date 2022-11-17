@@ -16,29 +16,33 @@ public class DynamicTables {
         driver.manage().window().maximize();
         driver.get("http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?ReturnUrl=%2fsamples%2fTestComplete11%2fWebOrders%2fDefault.aspx");
 
-        //enter user
-        WebElement username = driver.findElement(By.xpath("//input[@type='text']"));
+        // enter the username in the text box
+        WebElement username = driver.findElement(By.id("ctl00_MainContent_username"));
         username.sendKeys("Tester");
-        //enter pass
-        WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
+//                enter the password
+        WebElement password = driver.findElement(By.id("ctl00_MainContent_password"));
         password.sendKeys("test");
-        //click on log in
-        WebElement button = driver.findElement(By.xpath("//input[@type='submit']"));
-        button.click();
-        //check the checkBox that contains 'screen saver' as a project
-        List<WebElement> secondColumn = driver.findElements(By.xpath("/table[@class='SampleTable']/tbody/tr/th[3]"));
 
-        for(int i=0; i<secondColumn.size();i++){
+//                click on login button
+        WebElement loginButton = driver.findElement(By.id("ctl00_MainContent_login_button"));
+        loginButton.click();
 
-            String columnText = secondColumn.get(i).getText();
-//            check for the desired value
-            if(columnText.equalsIgnoreCase("ScreenSaver")) {
-//   print out the index of the column/row which contains the Screen saver
+
+//                check the checkBox that contains "screen saver" as a product
+        List<WebElement> secondColumn = driver.findElements(By.xpath("//table[@class='SampleTable']/tbody/tr/td[3]"));
+//                traverse through the list
+
+        for (int i = 0; i < secondColumn.size(); i++) {
+//            i=0
+            String columnText = secondColumn.get(i).getText();   //ScreenSaver
+//                    check for the desired value
+            if (columnText.equalsIgnoreCase("ScreenSaver")) {
+                //   print out the index of the column/row which contains the Screen saver
                 System.out.println("the index of the row which contains the Screen Saver is " + (i + 1));
-//  click on the checkbox
+
                 WebElement checkBox = driver.findElement(By.xpath("//table[@class='SampleTable']/tbody/tr[" + (i + 2) + "]/td[1]"));
                 checkBox.click();
             }
         }
-            }
+    }
 }

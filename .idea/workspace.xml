@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa4bbb1-8cb8-4f99-9532-e38c5a856925" name="Changes" comment="Selenium 1st push">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class01/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class01/launchBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class01/maximizeWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class01/navigateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class02/Hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class02/Hw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class02/LocatingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class02/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class02/WebOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class03/Hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class03/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class03/XpathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/AdditionalMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/CssSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/Hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/Hw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class04/RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/CheckBoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/CheckBoxDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/DropDownDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/GetAllLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/Hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/Hw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/MultipleSelectDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class05/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class06/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class06/Hw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class06/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class06/frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/Hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/Hw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/Hw3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/ImplicitWaits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class07/WindowHandleAdvance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class08/Hw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class08/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class08/TableBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class08/WaitsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class08/WaitsDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class09/DynamicTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class09/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/Basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/PracticeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/RadioButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Syntax/class09/DynamicTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Syntax/class09/DynamicTables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
