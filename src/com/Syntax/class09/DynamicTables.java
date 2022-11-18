@@ -30,6 +30,7 @@ public class DynamicTables {
 
 //                check the checkBox that contains "screen saver" as a product
         List<WebElement> secondColumn = driver.findElements(By.xpath("//table[@class='SampleTable']/tbody/tr/td[3]"));
+
 //                traverse through the list
 
         for (int i = 0; i < secondColumn.size(); i++) {

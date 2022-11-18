@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa4bbb1-8cb8-4f99-9532-e38c5a856925" name="Changes" comment="Selenium 1st push">
+      <change afterPath="$PROJECT_DIR$/src/com/Syntax/class09/Hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Syntax/review/WaitReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Syntax/class09/DynamicTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Syntax/class09/DynamicTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Syntax/class09/Notes" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DynamicTables">
+  <component name="RunManager" selected="Application.com.Syntax.class09.Hw">
     <configuration name="DynamicTables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Syntax.class09.DynamicTables" />
       <module name="SeleniumTest" />
@@ -80,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Syntax.class08.WaitsDemo" />
-      <module name="SeleniumTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Syntax.class08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WaitsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Syntax.class08.WaitsDemo2" />
       <module name="SeleniumTest" />
@@ -106,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.Syntax.class09.Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Syntax.class09.Hw" />
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Syntax.class09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.Syntax.class09.Hw" />
         <item itemvalue="Application.DynamicTables" />
         <item itemvalue="Application.Hw" />
         <item itemvalue="Application.TableBasic" />
         <item itemvalue="Application.WaitsDemo2" />
-        <item itemvalue="Application.WaitsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666042678175</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium 1st push">
+      <created>1668652141519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668652141519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium 1st push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 1st push" />
   </component>
 </project>
